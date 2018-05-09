@@ -1,0 +1,589 @@
+@charset "utf-8";
+/* CSS Document */
+	/*
+		UI Developer : Abhinand Sagar.
+	*/
+	
+	*
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	body
+	{
+		text-align:center;
+		background:#000 url(../images/coll/index.jpg);
+		background-attachment:fixed;
+		background-size : 100%;
+		color : #fff;
+	}
+	
+	#image_gallery
+	{
+		margin-top : 25px;
+		
+	}
+	
+	#image_gallery img:hover
+	{
+		-webkit-box-shadow : rgb(255,215,0) 5px 5px 8px;
+		
+	}
+	
+	
+	
+	header
+	{
+		height : 100px;
+		backgroun: #000000 no-repeat;
+		background-size : 100%;
+	}
+	
+	header #social img
+	{
+		background : #fff;
+		border-radius : 15px;
+	}
+	
+	nav
+	{
+		background:#000;
+		min-heigh: 60px;
+		
+	}
+	
+	h3
+	{
+		color: rgb(255,215,0);
+		font-family: "comic sans ms";
+		
+	}
+	
+	h3:hove
+	{
+		text-shadow : rgb(255,215,0) 1px 1px 8px;
+	}
+	
+	
+	
+	
+	#wrap
+	{
+		max-height: 600px;
+		margin-top : 20px;
+		overflow: hidden;
+		
+	}
+	
+	
+	
+	
+	foote
+	{
+		height: 60px;
+		background : black;
+		margin-top: 20px;
+	}
+	
+	.logo
+	{
+		float : left;
+	}
+	
+	#innerTxt
+	{
+		margin: 15% 0 0 5%;
+		text-align: justify;
+		font-family:"comic sans ms";
+		font-size: 16px;
+		overflow: hidden;
+		color : white;
+	}
+	
+	#menu_nav
+	{
+		background:#000000;
+		min-height: 60px;
+	}
+	
+	#menu_nav di
+	{
+		
+		background-colo: red;
+		float:right;
+	}
+	
+	/*
+	
+	#myNavbar .nav li a
+	{
+    
+    
+   
+	color : red;
+	background-color : red;
+	
+	padding-top : 15px;
+    
+	
+	}
+
+
+
+#myNavbar .nav li a:hover,a:active 
+{
+	
+    color: #009ae9;
+	
+	background-color : black;
+	
+
+}
+
+nav ul li.active a 
+{
+	
+	color: #009ae9;
+	
+	
+	
+}
+
+
+*/
+	
+		/* ************************************************************************** */
+
+			.navbar {
+				border-color: transparent;
+				background-color: rgba(0,0,0,0);
+				
+			}
+
+				.navbar .navbar-brand {
+					font-family: "Kaushan Script","Helvetica Neue","comic sans ms",Helvetica,Arial,cursive;
+					color: #fed136;
+					font-size : 2.5em;
+				}
+
+				.navbar .navbar-brand:hover,
+				.navbar .navbar-brand:focus,
+				.navbar .navbar-brand:active,
+				.navbar .navbar-brand.active {
+					color: #fec503;
+					border-radius : 5px;
+					background : none;
+				}
+
+				.navbar .navbar-collapse {
+					
+					border-color: rgba(255,255,255,.02);
+				}
+
+				.navbar .navbar-toggle {
+					border-color: #fed136;
+					background-color: #fed136;
+				}
+
+				.navbar .navbar-toggle .icon-bar {
+					background-color: #fff;
+				}
+
+				.navbar .navbar-toggle:hover,
+				.navbar .navbar-toggle:focus {
+					background-color: #fed136;
+				}
+
+				.navbar .nav li a {
+					text-transform: uppercase;
+					font-family: Montserrat,"Helvetica Neue","comic sans ms",Helvetica,Arial,sans-serif;
+					font-weight: 400;
+					letter-spacing: 1px;
+					color: #fff;
+					padding : 15px;
+					background-color : rgba(0,0,0,0.2);
+					font-weight : bold;
+					margin-to : 20px;
+					margin-botto : 20px;
+				}
+
+				.navbar .nav li a:hover,
+				.navbar .nav li a:focus {
+					outline: 0;
+					color: #FFD700;
+					background : rgba(0,0,0,0.2);
+					
+				}
+
+				.navbar .navbar-nav .active a {
+					border-radius: 0;
+					color: black;
+					background-color: #fed136;
+					border-radius : 5px;
+				}
+
+				.navbar .navbar-nav li.active a:hover,
+				.navbar .navbar-nav li.active a:focus {
+					color: #fff;
+					background-color: #fec503;
+					border-radius : 5px;
+				}
+				
+				
+				.dropdown-menu
+				{
+					
+					background : rgba(0,0,0,0);
+				}
+				
+				
+				.navbar .nav li ul.dropdown-menu li a
+				{
+					padding: 5px;
+					text-align:center;
+					background : rgba(0,0,0,0.9);
+				}
+				
+			.navbar .nav li ul.dropdown-menu li a.activa
+			{
+				background : rgba(255,215,0,1);
+				color : black;
+			}
+			
+			.navbar im
+			{
+				border : solid rgb(255,215,0) 2px;
+			}
+				
+/* ************************************************************************** */
+
+	
+	
+	
+		
+		.bg_black
+		{
+			background : black;
+			
+			
+			
+		}
+		section,article
+		{
+			border-radius: 0 5px 5px 0;
+			
+		}
+	
+		footer p
+		{
+		
+		borde : solid #FFD700 2px;
+		border-radius : 20px;
+		background : rgba(0,0,0,0.4);
+		text-align : center;
+		color : white;
+		margin-top: 20px;
+		padding : 5px 0px;
+		font-family: "comic sans ms";
+		
+		}
+		
+		
+		@media screen and (min-width : 1200px)
+		{
+			section 
+			{
+				height: 350px;	
+				
+			}
+			
+			
+		}
+		
+	/*	#content p
+		{
+			
+			width: 80%;
+		}
+		
+	
+	@media screen and (min-width : 1024px)
+		{
+			
+			
+		.bg-img
+		{
+		background: white url(../images/logo/banner.png) no-repeat;
+		background-size : 100%;
+		height : 350px;
+		}
+			
+			section p
+			{
+				font-size: 16px;
+				margin-top: 10px;
+				text-align: center;
+			}
+			
+			
+		}
+	
+	*/
+	
+	
+	
+	
+	/* **************************************************************************** */
+	
+	
+	header .intro-text 
+	{
+    padding-top: 100px;
+    padding-bottom: 50px;
+	borde: solid #fff 2px;
+	margin-to: 100px;
+	}
+	
+	
+	header .intro-text .intro-lead-in
+	{
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+	}
+	
+	header .intro-text .intro-lead-in span
+	{
+		color : rgba(255,215,0,1);
+	}
+	
+	
+	header .intro-text .intro-heading
+	{
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+	}
+	
+	
+	.intro-text a:link,a:visited {
+	text-decoration : none;
+    padding: 20px 40px;
+	border-style : solid;
+	border-width : 1px;
+	
+    border-color: rgba(255,215,0,1);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+   /* background-color: rgba(255,215,0,0); */
+   background-colo: rgba(0,0,0,0.4);
+}
+
+	.intro-text a:hover,a:active
+	{
+		
+		color : #000000;
+		background-color: rgba(255,215,0,1);
+		
+	}
+	
+
+	@media (min-width : 768px)
+	{
+	
+				
+				header .intro-text 
+				{
+				padding-top: 0px;
+				padding-bottom: 50px;
+				borde: solid #fff 2px;
+				margin-top: 200px; 
+				}
+			
+				header .intro-text .intro-heading
+				{
+				margin-bottom: 50px;
+				font-size: 75px;
+				font-weight: 700;
+				line-height: 75px;
+				}
+	
+	
+				
+				header .intro-text .intro-lead-in
+				{
+				font-size: 40px;
+				line-height: 40px;
+				}
+				
+	
+				
+    
+    
+	
+	
+	
+	
+	}
+	
+	
+	/* ************************ Image Gallery ******************************** */
+			
+			
+			
+			
+			.carousel-inner {
+				height: 100%;
+			}
+			
+						
+			.fill {
+				width: 100%;
+				height: 100%;
+				background-position: center;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+				-o-background-size: cover;
+			}
+			
+			
+			.modal-content
+			{
+				background : rgba(0,0,0,0.1);
+			}
+			
+			.modal-header
+			{
+				border : none;
+			}
+			
+			.modal-content #modal
+			{	
+				displa : block;
+				max-width : 90%;
+				height : 320px;
+				border : solid #fff 5px;
+				border-radius : 20px;
+				margin : auto;
+			}
+			
+			.closebutton
+			{
+				width : 25px;
+				height : 25px; 
+				border-radius : 100%;
+				background: rgb(255,215,0);
+				cursor: pointer;
+				border : solid #fff 1px; 
+				margin: 10px 5px 5px;
+			}
+			
+			a.tbadge
+			{
+				color : #fff;
+				font-weight : bold; 
+				font-size : 1.2em; 
+				-webkit-box-shadow : rgb(255,215,0) 2px 3px 8px;
+			}
+			a.tbadge:active
+			{
+				color : black;
+				-webkit-box-shadow : rgb(255,255,255) 2px 3px 8px;
+			}
+			
+			/* Styles for Image Gallery */
+			
+			
+			#image_gallery ul
+			{
+				list-style-type : none;
+				margin : 0px;
+				padding : 0px;
+			
+			}
+			
+			#image_gallery ul li
+			{
+				margin-bottom : 25px;
+			}
+			
+			#image_gallery img
+				{
+					height: 100px;
+					width : 100%;
+					cursor:pointer;
+				}
+				
+				#controllers
+				{
+					margin-top : 10px;
+				}
+			
+			@media (min-width : 768px)
+			{
+				
+				#image_gallery ul li
+				{
+				margin-bottom : 25px;
+				}
+			
+				#image_gallery img
+				{
+					height: 150px;
+					width : 100%;
+				}
+				
+				.modal-content #modal
+				{
+				
+				widt : 100%;
+				height : 460px;
+				
+				
+				border-radius : 20px;
+				margin-lef : 10%;
+				}
+				
+				
+				
+			}
+	
+			@media (max-width : 550px)
+			{
+				
+				.credits
+				{
+					display : block;
+				}
+				
+				footer p
+				{
+					font-size : 0.9em;
+				}
+				
+				#myModal h3 span
+				{
+					display : block;
+				}
+			
+			}
+			
+			.cbutton
+			{
+				background : rgba(0,0,0,0.4);
+				paddin : 3px 10px;
+				border : solid white 2px;
+				border
+			}
+			
